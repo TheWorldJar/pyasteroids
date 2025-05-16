@@ -16,7 +16,7 @@ def main():
 
     Player.containers = (updatable, drawable)
     Asteroid.containers = (asteroids, updatable, drawable)
-    AsteroidField = (updatable)
+    AsteroidField.containers = (updatable)
 
     print("Starting Asteroids!")
     print(f"Screen width: {SCREEN_WIDTH}")
